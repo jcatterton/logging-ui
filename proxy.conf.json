@@ -1,0 +1,10 @@
+{
+  "/logging-api/*": {
+      "target": "http://192.168.1.15:30547",
+      "secure": "false",
+      "changeOrigin": true,
+      "pathRewrite": {
+      "^/logging-api": ""
+    }
+  }
+}
